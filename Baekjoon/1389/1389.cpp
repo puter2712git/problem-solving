@@ -3,7 +3,10 @@
 
 using namespace std;
 
-
+/// @brief Get the minimum user index who has the minimum kevin bacon.
+/// @param _relation graph of the users' relationship
+/// @param _nr_user number of users
+/// @return index of the user
 int get_min_kevin_bacon_user(int _relation[][101], int _nr_user)
 {
   for (int k = 1; k <= _nr_user; k++) {
@@ -21,7 +24,7 @@ int get_min_kevin_bacon_user(int _relation[][101], int _nr_user)
       }
     }
   }
-  
+
   int min_kevin_bacon = -1;
   int ret;
 
