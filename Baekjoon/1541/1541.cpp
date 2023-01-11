@@ -6,6 +6,9 @@
 using namespace std;
 
 
+/// @brief Parse the expression to operand and operator
+/// @param _target expression string
+/// @param _parsed_str empty vector with string
 void parse_expression(string _target, vector<string> &_parsed_str)
 {
   int len = _target.length();
@@ -22,6 +25,9 @@ void parse_expression(string _target, vector<string> &_parsed_str)
 }
 
 
+/// @brief Get minimum value of parsed expression
+/// @param _parsed_str parsed expression, vector with string
+/// @return integer value
 int get_min_value(vector<string> &_parsed_str)
 {
   int ret = 0;
