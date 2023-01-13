@@ -4,6 +4,11 @@
 using namespace std;
 
 
+/// @brief Get the shortest time by using BFS.
+/// @param _visited graph 1-dimensional array
+/// @param _start start number
+/// @param _target target number
+/// @return shortest time to find
 int get_shortest_time(int _visited[], int _start, int _target)
 {
   queue<int> bfs;
