@@ -1,0 +1,41 @@
+# Compiled object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Compiled dynamic libraries
+*.so
+*.so.*
+*.dylib
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.pdb
+*.pdbx
+*.gcda
+*.gcno
+
+# IDE files
+.vscode/
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.vcproj.user
+*.user
+*.sln
+*.sln.cache
+
+# Build directory
+build/
