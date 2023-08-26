@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 
 using namespace std;
 
@@ -40,8 +39,6 @@ int main()
 	for (int i = 0; i < 3; i++) {
 		min_sum_of_costs = min(min_sum_of_costs, memo[N - 1][i]);
 	}
-
-	max({ 1, 2 });
 
 	cout << min_sum_of_costs << "\n";
 
