@@ -4,7 +4,7 @@
     {
       "type": "cppbuild",
       "label": "cppbuild",
-      "command": "/usr/bin/g++",
+      "command": "g++",
       "args": [
         "-g",
         "-o",
