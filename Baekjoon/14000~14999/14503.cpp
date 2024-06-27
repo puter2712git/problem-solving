@@ -52,9 +52,6 @@ void RunSimulation()
 	room[robot.GetRow()][robot.GetColumn()].isCleared = true;
 
 	while (true) {
-		int currRow = robot.GetRow();
-		int currColumn = robot.GetColumn();
-
 		bool isCleared = false;
 
 		// 반시계 방향으로 회전하며, 청소할 칸이 앞에 있으면 전진
