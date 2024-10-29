@@ -7,9 +7,13 @@
       "command": "g++",
       "args": [
         "-g",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}.exe",
-        "${file}",
+        "${file}"
       ],
       "options": {
         "cwd": "${workspaceFolder}"

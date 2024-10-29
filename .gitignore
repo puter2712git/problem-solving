@@ -27,7 +27,6 @@
 *.gcno
 
 # IDE files
-.vscode/
 *.suo
 *.sdf
 *.opensdf
