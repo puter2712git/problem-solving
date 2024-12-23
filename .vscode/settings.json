@@ -1,13 +1,6 @@
 {
-  // 기본 포매터를 정의합니다.
-  "editor.defaultFormatter": "ms-vscode.cpptools",
-
-  // 저장할 때 코드를 포매팅합니다.
-  "editor.formatOnSave": true,
-
   "C_Cpp.default.cppStandard": "c++17",
   "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
-
 
   "files.exclude": {
     "**/.git": true,
@@ -16,7 +9,7 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    "**/*.exe": true,
+    "**/*.exe": true
   },
   "files.associations": {
     "array": "cpp",
